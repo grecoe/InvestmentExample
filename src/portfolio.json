@@ -1,0 +1,35 @@
+{
+    "Income" :{
+        "Base" : 80000,
+        "AnnualGrowth" : 0.025,
+        "Bonus" : 0.10
+    },
+    "Investments" : {
+        "STOCK1" : {
+            "CurrentValue" : 65.07,
+            "SharesHeld" : 20,
+            "DividendPayout" : 0.0127,
+            "AnnualGrowth" : 0.02,
+            "AnnualGrant" : 0
+        },
+        "COMPANYSTOCK" : {
+            "CurrentValue" : 388.47,
+            "SharesHeld" : 1102,
+            "DividendPayout" : 0.0077,
+            "AnnualGrowth" : 0.05,
+            "AnnualGrant" : 0.12
+        }
+    },
+    "Retirement" :{
+        "RETIREMENT1" : {
+            "CurrentValue" : 100000,
+            "AnnualGrowth" : 0.0474,
+            "AnnualAdditionFromIncome" : 0
+        },
+        "RETIREMENT2" : {
+            "CurrentValue" : 100000,
+            "AnnualGrowth" : 0.0474,
+            "AnnualAdditionFromIncome" : 0.20
+        }
+    }
+}
